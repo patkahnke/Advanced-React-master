@@ -1,4 +1,4 @@
-import link from 'next/link';
+import Link from 'next/link';
 import NavStyles from './styles/NavStyles';
 
 const Nav = () => (
@@ -20,3 +20,5 @@ const Nav = () => (
     </Link>
   </NavStyles>
 );
+
+export default Nav;

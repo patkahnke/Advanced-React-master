@@ -5,11 +5,13 @@ class MyApp extends App {
     render () {
         const { Component } = this.props;
 
-        return <Container>
+        return (
+        <Container>
             <Page>
               <Component />
             </Page>
-          </Container>;
+          </Container>
+        );
     }
 }
 export default MyApp;
